@@ -1,0 +1,274 @@
+{% extends 'base.html' %}
+{% load static %}
+
+    {% block content%}
+	<!-- Start slides -->
+	<div id="slides" class="cover-slides">
+		<ul class="slides-container">
+			<li class="text-center">
+				<img src="{% static 'images/slider-01.jpg'%}" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>خوش آمدید به <br> رستوران یامی فود</strong></h1>
+							<p class="m-b-40">ببینید کاربران شما چگونه وب سایت شما را در زمان واقعی یا مشاهده تجربه می کنند  <br> 
+                                روند برای مشاهده هرگونه تغییر در عملکرد در طول زمان</p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="{% url 'reservation:reserve' %}">رزرو کردن</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-center">
+				<img src="{% static 'images/slider-02.jpg'%}" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>خوش آمدید به  <br> رستوران یامی فود</strong></h1>
+							<p class="m-b-40">ببینید کاربران شما چگونه وب سایت شما را در زمان واقعی یا مشاهده تجربه می کنند  <br> 
+                                روند برای مشاهده هرگونه تغییر در عملکرد در طول زمان</p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="{% url 'reservation:reserve' %}">رزرو کردن</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+			<li class="text-center">
+				<img src="{% static 'images/slider-03.jpg'%}" alt="">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<h1 class="m-b-20"><strong>خوش آمدید به<br> رستوران یامی فود</strong></h1>
+							<p class="m-b-40">ببینید کاربران شما چگونه وب سایت شما را در زمان واقعی یا مشاهده تجربه می کنند  <br> 
+                                روند برای مشاهده هرگونه تغییر در عملکرد در طول زمان</p>
+							<p><a class="btn btn-lg btn-circle btn-outline-new-white" href="{% url 'reservation:reserve' %}">رزرو کردن</a></p>
+						</div>
+					</div>
+				</div>
+			</li>
+		</ul>
+		<div class="slides-navigation">
+			<a href="#" class="next"><i class="fa fa-angle-right" aria-hidden="true"></i></a>
+			<a href="#" class="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></a>
+		</div>
+	</div>
+	<!-- End slides -->
+
+	<!-- Start About -->
+	<div class="about-section-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-12">
+					<img src="{% static 'images/about-img.jpg'%}" alt="" class="img-fluid">
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-12 text-center">
+					<div class="inner-column">
+						<h1>خوش آمدید به <span>رستوران یامی فود</span></h1>
+						<h4>داستان کوچک</h4>
+						<p>لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است، چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد، کتابهای زیادی در شصت و سه درصد گذشته حال و آینده، شناخت فراوان جامعه و متخصصان را می طلبد، تا با نرم افزارها شناخت بیشتری را برای طراحان رایانه ای علی الخصوص طراحان خلاقی، و فرهنگ پیشرو در زبان فارسی ایجاد کرد، در این صورت می توان امید داشت که تمام و دشواری موجود در ارائه راهکارها، و شرایط سخت تایپ به پایان رسد و زمان مورد نیاز شامل حروفچینی دستاوردهای اصلی، و جوابگوی سوالات پیوسته اهل دنیای موجود طراحی اساسا مورد استفاده قرار گیرد.. </p>
+						
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End About -->
+	
+	<!-- Start QT -->
+	<div class="qt-box qt-background">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-8 ml-auto mr-auto text-left">
+					<p class="lead ">اگر شما اهل آشپزی نیستید، از سرآشپز دوری کنید و از سرآشپز تعریف کنید</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End QT -->
+	
+	<!-- Start Menu -->
+	<div class="menu-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>منوی ویژه</h2>
+						<p>لورم اپوسوم به سادگی متن ساختگی چاپ و حروفچینی است</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="special-menu text-center">
+						<div class="button-group filter-button-group">
+							<button class="active" data-filter="*">همه</button>
+							<button data-filter=".drinks">نوشیدنی</button>
+							<button data-filter=".lunch">ناهار</button>
+							<button data-filter=".dinner">شام</button>
+						</div>
+					</div>
+				</div>
+			</div>
+				
+			<div class="row special-list">
+				{% for food in foods%}
+				<a href ="{% url 'foods:detail' food.id %}">
+					<div class="col-lg-4 col-md-6 special-grid {{food.type_food}}">
+						<div class="gallery-single fix">
+							<img src="{{food.photo.url}}" class="img-fluid" alt="Image">
+							<div class="why-text">
+								<h4>{{food.name}}</h4>
+								<p>{{food.description}}</p>
+								<h5>{{food.price}}تومان</h5>
+							</div>
+						</div>
+					</div>
+				</a>
+				{% endfor %}
+					</div>
+				</div>
+				
+			</div>
+		</div>
+	</div>
+	<!-- End Menu -->
+	
+	<!-- Start Gallery -->
+	<div class="gallery-box">
+		<div class="container-fluid">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>تصاویر</h2>
+						<p>لورم اپوسوم به سادگی متن ساختگی چاپ و حروفچینی است</p>
+					</div>
+				</div>
+			</div>
+			<div class="tz-gallery">
+				<div class="row">
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<a class="lightbox" href="{% static 'images/gallery-img-01.jpg'%}">
+							<img class="img-fluid" src="{% static 'images/gallery-img-01.jpg'%}" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="{% static 'images/gallery-img-02.jpg'%}">
+							<img class="img-fluid" src="{% static 'images/gallery-img-02.jpg'%}" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="{% static 'images/gallery-img-03.jpg'%}">
+							<img class="img-fluid" src="{% static 'images/gallery-img-03.jpg'%}" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-12 col-md-4 col-lg-4">
+						<a class="lightbox" href="{% static 'images/gallery-img-04.jpg'%}">
+							<img class="img-fluid" src="{% static 'images/gallery-img-04.jpg'%}" alt="Gallery Images">
+						</a>
+					</div>
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="{% static 'images/gallery-img-05.jpg'%}">
+							<img class="img-fluid" src="{% static 'images/gallery-img-05.jpg'%}" alt="Gallery Images">
+						</a>
+					</div> 
+					<div class="col-sm-6 col-md-4 col-lg-4">
+						<a class="lightbox" href="{% static 'images/gallery-img-06.jpg'%}">
+							<img class="img-fluid" src="{% static 'images/gallery-img-06.jpg'%}" alt="Gallery Images">
+						</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Gallery -->
+	
+	<!-- Start Customer Reviews -->
+	<div class="customer-reviews-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<div class="heading-title text-center">
+						<h2>نظرات مشتریان</h2>
+						<p>لورم اپوسوم به سادگی متن ساختگی چاپ و حروفچینی است</p>
+					</div>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-8 mr-auto ml-auto text-center">
+					<div id="reviews" class="carousel slide" data-ride="carousel">
+						<div class="carousel-inner mt-4">
+							<div class="carousel-item text-center active">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="{% static 'images/profile-1.jpg'%}" alt="">
+								</div>
+								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">رضا پور احمدی</strong></h5>
+								<h6 class="text-dark m-0">برنامه نویس وب</h6>
+								<p class="m-0 pt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+							</div>
+							<div class="carousel-item text-center">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="{% static 'images/profile-3.jpg'%}" alt="">
+								</div>
+								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">حسین گنجی</strong></h5>
+								<h6 class="text-dark m-0">طراح وب</h6>
+								<p class="m-0 pt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+							</div>
+							<div class="carousel-item text-center">
+								<div class="img-box p-1 border rounded-circle m-auto">
+									<img class="d-block w-100 rounded-circle" src="{% static 'images/profile-7.jpg'%}" alt="">
+								</div>
+								<h5 class="mt-4 mb-0"><strong class="text-warning text-uppercase">دانیال رجایی</strong></h5>
+								<h6 class="text-dark m-0">تحلیل گر سئو</h6>
+								<p class="m-0 pt-3">لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد</p>
+							</div>
+						</div>
+						<a class="carousel-control-prev" href="#reviews" role="button" data-slide="prev">
+							<i class="fa fa-angle-left" aria-hidden="true"></i>
+							<span class="sr-only">Previous</span>
+						</a>
+						<a class="carousel-control-next" href="#reviews" role="button" data-slide="next">
+							<i class="fa fa-angle-right" aria-hidden="true"></i>
+							<span class="sr-only">Next</span>
+						</a>
+                    </div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Customer Reviews -->
+	
+	<!-- Start Contact info -->
+	<div class="contact-imfo-box">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<i class="fa fa-volume-control-phone"></i>
+					<div class="overflow-hidden">
+						<h4>تلفن</h4>
+						<p class="lead">
+							+01 123-456-4590
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-envelope"></i>
+					<div class="overflow-hidden">
+						<h4>ایمیل</h4>
+						<p class="lead">
+							yourmail@gmail.com
+						</p>
+					</div>
+				</div>
+				<div class="col-md-4">
+					<i class="fa fa-map-marker"></i>
+					<div class="overflow-hidden">
+						<h4>نقشه</h4>
+						<p class="lead">
+							800, Lorem Street, US
+						</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- End Contact info -->
+	{% endblock %}
+	

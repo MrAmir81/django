@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+{% load static %}
+    {% block content%}
+    <div class="detail">
+        <img style="height: 400px; width: 600px; margin-bottom: 100px; " src="{{food.photo.url}}">
+        <div class="li" align="center">
+            <li>نام غذا: {{food.name}}</li>
+            <li>{{food.rate}}:امتیاز</li>
+            <li>توضیحات : {{food.description}}</li>
+        </div>
+    </div>
+    {% endblock %}
