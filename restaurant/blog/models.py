@@ -57,7 +57,7 @@ class Comments(models.Model):
     date = models.DateTimeField(_("تاریخ انتشار"), auto_now=False, auto_now_add=True)
 
     class Meta:
-        verbose_name = 'کانت'
+        verbose_name = 'کامنت'
         verbose_name_plural = 'کامنت ها'
 
 
